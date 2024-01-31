@@ -1,120 +1,86 @@
 * {
     padding: 0%;
     margin: 0%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Sans', sans-serif;
+     h1{
+        font-weight: 600;
+     }
 }
 
+.learnmore button {
+    background-color: rgb(219, 43, 43);
+}
 .header {
     background-image: url(../IMAGES/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.header .nav-head .nav-item a {
+    padding: 6px 11px;
+}
 .nav1stbtn {
     color: #f83fdf !important;
 }
-
 .nav1stbtn:hover {
     color: white !important;
 }
-
 .navbar-collapse {
     flex-grow: inherit;
 }
-
 .navbaritems {
-    column-gap: 3rem;
+    column-gap: 2rem;
 }
-
 .header .nav-item:hover {
     background-color: #f83fdf;
-    border-radius: 100px;
+    border-radius: 4px;
 }
-
 .mainheading {
     margin-top: 16rem;
 }
-
 .horizontalrow {
     opacity: 1 !important;
     border: 0;
 }
-
-.headerbtn {
-    background-color: #f83fdf;
-}
-
 .navlastbtn {
     color: white !important;
     background-color: #f83fdf;
 }
-
 .navlastbtn:hover {
     color: #ff00dd !important;
     background-color: rgb(255, 255, 255);
 }
-
-.eventsection .card img:hover {
-    transform: scale(1.07);
+.eventsection .card:hover {
+    transform: scale(1.02);
+    transition: calc(0.5s);
 }
-
-.eventbtn {
-    color: white !important;
-    background-color: #f83fdf;
-}
-
-.eventbtn:hover {
-    color: #ff00dd !important;
-    background-color: rgb(208, 198, 198);
-}
-
 .Explore {
     background-image: url(../IMAGES/hiihihi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .Explore h1 {
     margin-top: 15rem;
 
 }
-
-.Explore button {
-    color: white !important;
-    background-color: #f83fdf;
-    margin-bottom: 6rem;
+.gridimages img{
+    padding: 2px;
+    border: 1px solid rgb(198, 196, 192);
+    border-radius: 5px;
 }
-
-.Explore button:hover {
-    color: #ff00dd !important;
-    background-color: rgb(208, 198, 198);
-}
-
 .upcomingplans {
     margin-top: 7rem;
     margin-bottom: 5rem;
 }
-
-.upcomingplans button {
-    color: white !important;
-    background-color: #f83fdf;
-}
-
-.upcomingplans button:hover {
-    color: #ff00dd !important;
-    background-color: rgb(208, 198, 198);
-}
-
 .footer {
     background-color: rgb(104, 102, 102);
 }
-
-
+.footer p{
+    font-weight: 10;
+}
 @media (max-width:768px) {
     .horizontalrow {
         width: 50% !important;
     }
-
     .navbar-collapse {
         flex-grow: inherit;
         position: absolute;
@@ -122,7 +88,6 @@
         margin-top: 16rem;
         text-align: center;
     }
-
     .gridimages img {
         margin-top: 2rem;
     }
@@ -139,28 +104,15 @@
 }
 
 @media (min-width:768px) {
-    .eventsection .card img:hover {
-        transform: scale(1.07);
-    }
-
     .gridimages img:hover {
-        transform: scale(1.08);
+        transform: scale(1.04);
+        transition: calc(0.5s);
     }
-
-    .Explore h1 {
-        margin-left: 9rem;
-    }
-
-    .Explore hr {
-        margin-left: 19rem;
-    }
-
     .Explore p {
         width: 80%;
-        margin-left: 5rem;
     }
     .gridimages img {
-        margin-bottom: 1rem;
+        margin-bottom: 25px;
     }
 }
 
@@ -169,18 +121,15 @@
         margin-top: 0px !important;
         margin-bottom: 0px !important;
     }
-
     .upcomingplans hr {
         margin-bottom: 0px !important;
     }
-
     .upcomingplans p {
         margin-top: 0px !important;
     }
-    .upcomingplans button{
+    .upcomingplans button {
         margin-top: 1rem !important;
     }
-
     .gridimages img {
         margin-bottom: 1rem;
     }
